@@ -8,12 +8,9 @@
 	"type": "module",
 	"main": "./source/index.js",
 	"exports": "./source/index.js",
-	"imports": {
-		"#ansi-styles": "./source/vendor/ansi-styles/index.js",
-		"#supports-color": {
-			"node": "./source/vendor/supports-color/index.js",
-			"default": "./source/vendor/supports-color/browser.js"
-		}
+	"dependencies": {
+		"ansi-styles": "^6.1.0",
+		"supports-color": "^9.2.1"
 	},
 	"types": "./source/index.d.ts",
 	"sideEffects": false,
